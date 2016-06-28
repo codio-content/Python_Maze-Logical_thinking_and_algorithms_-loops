@@ -1,0 +1,82 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1750018124",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python .guides/tests/py-6.py",
+   "instructions": "On the left is some code to start you off.\n\nYour job is to modify the loop instructions so only 4 energy stores get added.\n\nHowever, we still want to add all 10 walls.\n\nTo do this, you will need to insert an `if` statement that checks the `counter` and only adds an energy store with `addEnergy()` based on the current counter value.\n",
+   "name": "Logic inside a loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1891078389",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python .guides/tests/py-10.py",
+   "instructions": "Here comes a challenge that takes what we saw in the previous section and extends it a bit.\n\nWe want you to modify the code so you get the following result.\n\n![](.guides/img/diag-challenge.png)\n",
+   "name": "Drawing lines"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-2970533750",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python .guides/tests/py-4.py",
+   "instructions": "On the left is some code we want you to modify. Do the following ...\n\n1. Modify the loop so it only adds 8 walls.\n1. Add an instruction to the same loop so it also adds 8 energy stores. The function to use is `addEnergy()`\n",
+   "name": "Doing it with a loop"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4159971212",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python .guides/tests/py-11.py",
+   "instructions": "Now comes a really tricky challenge. Don't worry too much if you cannot make this work as we will go deeper into things in the next Unit.\n\nWe want you to modify the code so you end up with the following wall arrangement.\n\n![](.guides/img/v-challenge.png)\n\nThere are various ways you could tackle. We suggest the following ...\n\n- Create a second loop that handles the upwards line of walls. \n- Use a second variable to store and adjust the Y coordinate\n- Decrement this second variable at the end of each loop so the Y coodinate decreases\n",
+   "name": "Drawing multiple lines"
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-679175048",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "points": 1,
+   "command": "python .guides/tests/py-5.py",
+   "instructions": "On the left is some code. Do the following ...\n\n1. Modify the loop so it only adds 6 walls.\n1. Create another `for` loop that adds 3 energy stores using `addEnergy()`\n1. Read the advice below on copying and pasting to speed things up.\n",
+   "name": "Multiple Loops"
+  }
+ }
+]
