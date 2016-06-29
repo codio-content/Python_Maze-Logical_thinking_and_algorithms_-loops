@@ -51,7 +51,7 @@
      "action": "close"
     },
     {
-     "path": "public/py/py-2.js",
+     "path": "public/py/py-2.py",
      "panel": 0,
      "action": "open"
     },
